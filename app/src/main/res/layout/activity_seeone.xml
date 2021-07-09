@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Estabelecimento"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Endereço do estabelecimento"
+        app:layout_constraintStart_toStartOf="@+id/txtName"
+        app:layout_constraintTop_toBottomOf="@+id/txtName" />
+
+    <TextView
+        android:id="@+id/txtBio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Descrição do estabelecimento"
+        app:layout_constraintStart_toStartOf="@+id/txtAddress"
+        app:layout_constraintTop_toBottomOf="@+id/txtAddress"/>
+
+    <TextView
+        android:id="@+id/txtBlind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Deficiente Visual"
+        app:layout_constraintStart_toStartOf="@+id/txtBio"
+        app:layout_constraintTop_toBottomOf="@+id/txtBio" />
+
+    <TextView
+        android:id="@+id/txtWheelchair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Deficiente Motor"
+        app:layout_constraintStart_toStartOf="@+id/txtHearing"
+        app:layout_constraintTop_toBottomOf="@+id/txtHearing" />
+
+    <TextView
+        android:id="@+id/txtHearing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Deficiente Auditivo"
+        app:layout_constraintStart_toStartOf="@+id/txtBlind"
+        app:layout_constraintTop_toBottomOf="@+id/txtBlind" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
