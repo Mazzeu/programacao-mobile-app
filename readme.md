@@ -1,4 +1,4 @@
 # programacao-mobile-app
-Eduardo - Home
-Júlio - Create
+Eduardo - Home /
+Júlio - Create /
 Isabela - ViewOne
