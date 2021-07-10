@@ -21,14 +21,14 @@ class SeeOneActivity : AppCompatActivity() {
             binding.txtBlind.text = "Possui acesso para deficientes visuais"
         }
         if(!estabelecimento.wheelchair) {
-            binding.txtWheelchair.text = "Não possui acesso para cadeirantes"
+            binding.txtWheelchair.text = "Não possui acesso para deficientes motores"
         } else {
-            binding.txtWheelchair.text = "Possui acesso para cadeirantes"
+            binding.txtWheelchair.text = "Possui acesso para deficientes motores"
         }
         if(!estabelecimento.hearing) {
-            binding.txtHearing.text = "Não possui acesso para cadeirantes"
+            binding.txtHearing.text = "Não possui acesso para deficientes auditivos"
         } else {
-            binding.txtHearing.text = "Possui acesso para cadeirantes"
+            binding.txtHearing.text = "Possui acesso para deficientes auditivos"
         }
     }
 }
